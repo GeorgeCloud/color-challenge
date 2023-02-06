@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  max-width: 800px;
+  margin: 40px auto;
+  font-family: 'Halvetica';
+  /* margin-top: 10px; */
+}
+
+.boxes {
+  display: flex;
+}
+
+.boxes div {
+  width: calc(800px/3);
+  height: 200px;
+  /* background-color: lightblue; */
+}
+
+button {
+  padding: 10px 20px;
+}
